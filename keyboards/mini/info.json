@@ -21,14 +21,18 @@
     "rgb_matrix":
     {
         "driver":               "ws2812",
+        "led_count":            12,
         "animations":
         {
-            "cycle_all": true
+            "solid_color": true,
+            "gradient_up_down": true,
+            "cycle_left_right": true,
+            "typing_heatmap": true,
+            "breathing": true
         },
         "default":
         {
-            "on":          true,
-            "animation":   "cycle_all"
+            "animation":   "cycle_left_right"
         },
         "layout":
         [
